@@ -1,0 +1,27 @@
+main: com.ThunderKofy.TrollEmUp
+name: TrollEmUp
+author: Phoenix852
+website: https://discord.gg/bFX2Vgv
+version: 1.0.0
+prefix: ThunderKofy | TrollEmUp
+description: Simple troll plugin (not for players, but for server owners who want to troll the players)
+permissions:
+  TrollEmUp.main:
+    default: op
+    description: Permission to use /TrollEmUp command.
+  TrollEmUp.help:
+    default: op
+    description: Permission to use /TrollEmUp help command.
+  TrollEmUp.reload:
+    default: op
+    description: Permission to use /TrollEmUp relaod command.
+  TrollEmUp.author:
+    default: op
+    description: Permission to use /TrollEmUp author command.
+  TrollEmUp.trolls:
+    default: op
+    description: Permission to use /TrollEmUp trolls command.
+commands:
+  trollemup:
+    permission: TrollEmUp.*
+    default: op

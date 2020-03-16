@@ -1,0 +1,21 @@
+# TrollEmUp
+trolls:
+  #This is a troll which triggers when a player fills a bucket with water.
+  #This just puts the player on fire for x seconds.
+  #Every player has a chance to get this troll triggered on themselves.
+  burn:
+    #Do you want this troll module enabled? If not, just set this to false.
+    enabled: true
+    #Define the time since when the player should be on fire in seconds.
+    seconds: 3
+  #This troll triggers when a player kills a creeper.
+  #The player has a chance to have a creeper spawn right above their head and die and that's how it got its name.
+  creeper-revenge:
+    #Don't want this troll enabled? Set this to false if not.
+    enabled: true
+  #This gets triggered when a player catches a fish.
+  #The player has a chance to have himself in a situation where he will be hungry to eat a fish, but suddenly a lighting will strike him and snatch his yummy breakfast and give em to the lords in the heavens above.
+  #This is a really funny troll to have in your server.
+  take-my-fish:
+    #If you don't like this troll then just disable it by changing this to false.
+    enabled: true
